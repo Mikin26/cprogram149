@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,amount=0,total;
+clrscr();
+	printf("Enter the value of a:");
+	scanf("%d",&a);
+	if (a>=50)
+	{
+	amount=amount+25;
+	}
+	else if (a-50>=100)
+	{
+	amount=25+75;
+	}
+	else if (a-50-100>=100)
+	{
+	amount=100+120;
+	}
+
+	total=amount;
+	printf("%d",total);
+getch();
+}

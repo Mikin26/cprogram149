@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c,d,e;
+clrscr();
+//Find the min number
+	printf("Enter the value of a:");
+	scanf("%d",&a);
+	printf("Enter the value of b:");
+	scanf("%d",&b);
+	printf("Enter the value of c:");
+	scanf("%d",&c);
+	printf("Enter the value of d:");
+	scanf("%d",&d);
+	printf("Enter the value of e:");
+	scanf("%d",&e);
+	(a<b)?(a<c)?(a<d)?(a<e)?printf("%d",a):printf("%d",e):
+	(d<e)?printf("%d",d):printf("%d",e):
+	(c<d)?(c<e)?printf("%d",c):printf("%d",e):
+	(d<e)?printf("%d",d):printf("%d",e):
+	(b<c)?(b<d)?(b<e)?printf("%d",b):printf("%d",e):
+	(d<e)?printf("%d",d):printf("%d",e):
+	(c<d)?(c<e)?printf("%d",c):printf("%d",e):
+	(d<e)?printf("%d",d):printf("%d",e);
+getch();
+}

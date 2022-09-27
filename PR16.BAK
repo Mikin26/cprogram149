@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a=27,b=210,c=100,d=111,man;
+clrscr();
+    man=(a>b)?(a>c?a:c):(a>d?a:d):(b>c?b:c):(b>d?b:d):(c>d?c:d);
+    printf("%d",man);
+
+
+
+   //(a>b)?(a>c)?(a>d)?printf("%d",a):printf("%d",c):printf("%d",d):
+   //(b>c)?(b>d)?printf("%d",b):printf("%d",c):
+   //(c>d)?printf("%d",c):printf("%d",d);
+
+   getch();
+}
